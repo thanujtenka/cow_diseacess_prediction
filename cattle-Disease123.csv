@@ -1,0 +1,28 @@
+﻿Chronic cough,Weight loss,Fever,Difficulty breathing,Reduced milk production,"Sores/blisters on mouth, feet, and teats",Drooling,Lameness,Loss of appetite,Lethargy,Nasal discharge,Labored breathing,Nervousness,Lack of coordination,Behavioral changes,Chronic diarrhea,Thickened intestinal lining,Jaundice,Abortion,Joint infections,Swelling of the testicles,Muscle weakness,Inability to stand,Rapid pulse,Dull eyes,Swollen udder,Pain,Abnormal milk,Sudden death,Bloating,Diarrhea,Muscle tremors,Dehydration,Infertility,Vaginal discharge,Swollen lymph nodes,Discharge from eyes and nose,Discease
+1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bovine Tuberculosis (Mycobacterium bovis)
+0,0,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Foot and Mouth Disease (FMD) (Aphthovirus, Picornavirus)"
+0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bovine Respiratory Disease (BRD) (Various pathogens like Mannheimia haemolytica)
+0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bovine Spongiform Encephalopathy (BSE, Mad Cow Disease)"
+0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Johne's Disease (Paratuberculosis):
+0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Leptospirosis (Leptospira spp.)
+0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Brucellosis (Brucella abortus)
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Milk Fever (Hypocalcemia)
+0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,"Bovine Mastitis (Staphylococcus aureus, Streptococcus agalactiae)"
+1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,Contagious Bovine Pleuropneumonia (CBPP)
+1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Infectious Bovine Rhinotracheitis (IBR)
+0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Anaplasmosis (Anaplasma marginale)
+0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Babesiosis (Babesia spp.)
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,Clostridial Diseases (Clostridium spp.)
+0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,Coccidiosis (Eimeria spp.)
+0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Vibriosis (Campylobacter fetus)
+0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Trichomoniasis (Trichomonas fetus)
+0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Theileriosis (Theileria parva)
+0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,Rinderpest (Rinderpest virus)
+0,0,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bluetongue (Orbivirus)
+0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fascioliasis (Fasciola hepatica)
+0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Lumpy Skin Disease (Capripoxvirus)
+0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Bovine Viral Diarrhea (BVD)
+0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Intestinal Parasites (Haemonchus contortus, Ostertagia ostertagi)"
+0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Toxoplasmosis (Toxoplasma gondii)
+0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Hyperketonemia
+0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
