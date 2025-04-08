@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cattle Disease Prediction</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background-image: url("{{ url_for('static', filename='uploads/35873.jpg') }}");
+            background-size: cover; /* Ensures the background covers the entire screen */
+            background-position: center; /* Centers the background */
+            background-repeat: no-repeat; /* Prevents tiling */
+            margin: 0;
+            flex-direction: column;
+        }
+        /* Navbar Styling */
+        .navbar {
+            width: 100%;
+            background-color: rgba(152, 182, 213, 0.8); /* Semi-transparent background */
+            padding: 15px 20px;
+            color: rgb(27, 25, 25);
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 80px;
+            width: 90%;
+            max-width: 500px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.2s;
+            width: 100%; /* Full width buttons */
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        Cattle Disease Prediction Using Machine Learning
+    </div>
+
+    <div class="container">
+        <h1>Welcome to Cattle Disease Prediction</h1>
+        <button onclick="window.location.href='/image'">Image-based Prediction</button>
+        <button onclick="window.location.href='/symptom'">Symptom-based Prediction</button>
+    </div>
+
+</body>
+</html>

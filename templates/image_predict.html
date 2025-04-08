@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image-based Prediction</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background-image: url("{{ url_for('static', filename='uploads/35873.jpg') }}");
+            background-size: cover; /* Ensures the background covers the entire screen */
+            background-position: center; /* Centers the background */
+            background-repeat: no-repeat; /* Prevents tiling */
+            margin: 0;
+            flex-direction: column;
+        }
+        .navbar {
+            width: 100%;
+            background-color: #98b6d5;
+            padding: 15px 20px;
+            color: rgb(27, 25, 25);
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 500px;
+            margin-top: 80px; /* Push content down below navbar */
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        input[type="file"] {
+            margin: 20px 0;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 10px;
+            transition: background-color 0.2s;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .error {
+            color: #d9534f;
+            background-color: #f8d7da;
+            padding: 10px;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: left;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+        }
+        .back-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.2s;
+            width: 100%;
+            font-size: 16px;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        Cattle Disease Prediction Using Machine Learning
+    </div>
+
+    <div class="container">
+        <h1>Image-based Cattle Disease Prediction</h1>
+        
+        <!-- Upload Form -->
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/*" required>
+            <button type="submit">Predict</button>
+        </form>
+
+        <!-- Display Error Message -->
+        {% if error %}
+        <div class="error">{{ error }}</div>
+        {% endif %}
+
+        <!-- Display Prediction Results -->
+        {% if result %}
+        {% if result %}
+        <h3>Detected Diseases:</h3>
+        <ul>
+            {% for disease in result %}
+                <li style="font-size: medium">{{ disease }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    
+{% endif %}
+
+
+        <!-- Dynamic Image Display -->
+        {% if image_url %}
+        <img src="{{ image_url }}" alt="Result Image">
+        {% endif %}
+
+        <!-- Back Button -->
+        <button class="back-button" onclick="window.location.href='/'">Go Back</button>
+    </div>
+
+</body>
+</html>

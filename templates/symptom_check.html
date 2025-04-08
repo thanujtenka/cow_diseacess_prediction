@@ -1,0 +1,25 @@
+<!-- templates/symptom_check.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Symptom-based Prediction</title>
+</head>
+<body>
+    <h1>Symptom-based Cattle Disease Prediction</h1>
+    <form method="post" action="/next">
+        {% if question %}
+            <h3>{{ question }}</h3>
+            <input type="hidden" name="symptom" value="{{ symptom }}">
+            <button type="submit" name="answer" value="yes">Yes</button>
+            <button type="submit" name="answer" value="no">No</button>
+        {% endif %}
+    </form>
+
+    {% if result %}
+        <h2>Prediction Result:</h2>
+        <p>{{ result }}</p>
+    {% endif %}
+
+    <button onclick="window.location.href='/'">Go Back</button>
+</body>
+</html>
